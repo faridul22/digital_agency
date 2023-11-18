@@ -8,15 +8,16 @@
     justify-content: space-around;
     padding: 20px;
     background-color: #D8D3D3;
+    color: white;
 }
 
 .nav_items {
     display: flex;
-    font-size: 25px;
-    font-weight: bold;
+    list-style: none;
 }
 
 .nav_item {
     margin: 10px;
-    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
 }
