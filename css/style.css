@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #D8D3D3;
+}
+
+.nav_items {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav_item {
+    margin: 10px;
+    list-style: none;
+}

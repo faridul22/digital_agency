@@ -1,6 +1,15 @@
 .parent {
     display: flex;
-
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 100%;
 }
 
 .child1 {
@@ -9,6 +18,8 @@
     color: white;
     font-weight: 700;
     font-size: 40px;
+    order: 3;
+    flex-grow: 1;
 }
 
 .child2 {
@@ -25,4 +36,5 @@
     color: white;
     font-weight: 700;
     font-size: 40px;
+    flex-grow: 3;
 }
