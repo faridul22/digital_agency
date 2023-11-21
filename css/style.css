@@ -139,3 +139,27 @@
     text-align: center;
     color: black;
 }
+
+/* Appointment style */
+.appointment_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: -50px;
+
+}
+
+.appointment_desc {
+    width: 75%;
+}
+
+.appointment_btn {
+    border-radius: 25px;
+    width: 100%;
+}
