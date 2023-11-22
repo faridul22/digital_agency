@@ -161,5 +161,66 @@
 
 .appointment_btn {
     border-radius: 25px;
-    width: 100%;
+    width: 25%;
+    padding: 10px 5px;
+}
+
+.make_appoint_btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+
+}
+
+/* Blogs style */
+.blogs_container {
+    width: 75%;
+    margin: auto;
+    margin: auto;
+}
+
+.blogs_section {
+    text-align: center;
+}
+
+.blogs_section_title {
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+.blogs_section_description {
+    width: 75%;
+    margin: auto;
+}
+
+.blogs {
+    display: flex;
+    margin: 20px;
+}
+
+.blog {
+    width: 400px;
+    height: 550px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.blog_text {
+    padding: 20px;
+}
+
+
+.blog img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blog_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blog_descr {
+    margin-top: 20px;
 }
