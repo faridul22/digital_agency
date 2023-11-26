@@ -8,8 +8,10 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: #D8D3D3;
-    color: white;
+    background-color: rgb(41, 41, 41);
+    color: whitesmoke;
+    position: fixed;
+    width: 100%;
 }
 
 .nav_items {
@@ -81,7 +83,7 @@
 /* Service Style left*/
 .service_container {
     height: 100vh;
-    width: 100%;
+    width: auto;
 }
 
 .service_btn {
@@ -227,17 +229,18 @@
 }
 
 .footer_container {
-    width: 100%;
+    width: auto;
     height: 60vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.footer_container li {
+.footer_container ul li {
     list-style: none;
+    margin: 10px 0;
 }
 
 .logo_box {
-    width: 100%;
+    width: 20%;
 }
 
 .useful_link {
