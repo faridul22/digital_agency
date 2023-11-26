@@ -231,3 +231,15 @@
     height: 60vh;
     justify-content: space-around;
 }
+
+.footer_container li {
+    list-style: none;
+}
+
+.logo_box {
+    width: 100%;
+}
+
+.useful_link {
+    width: 100%;
+}
